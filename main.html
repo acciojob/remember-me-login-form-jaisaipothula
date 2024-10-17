@@ -49,13 +49,17 @@
 
     <form id="loginForm">
         <h1>Login Form</h1>
+        <label for="username">Username:</label>
         <input type="text" id="username" placeholder="Username" required>
+        
+        <label for="password">Password:</label>
         <input type="password" id="password" placeholder="Password" required>
-        <label>
-            <input type="checkbox" id="checkbox"> Remember me
-        </label>
+        
+        <label for="checkbox">Remember me:</label>
+        <input type="checkbox" id="checkbox">
+        
         <input type="submit" id="submit" value="Submit">
-        <button id="existing">Login as existing user</button>
+        <button type="button" id="existing">Login as existing user</button>
     </form>
 
     <script>
